@@ -15,8 +15,9 @@ app.post('/calculate-loan', (req, res) => {
     } else {
       message = 'Approved';
     }
-  
-    res.json({ message });
+    
+    res.json("Hi The backend is Up",{ message });
+   
   });
 
 
